@@ -1,0 +1,524 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f7f4; /* Verde menta muy claro */
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+header {
+    background-color: #78c2ad; /* Verde menta */
+    color: #ffffff; /* Blanco */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-family: Americana, serif; /* Usamos Arial como fuente base */
+    font-style: italic; /* Aplicamos estilo cursiva */
+    text-align: center;
+    font-size: 45px;
+}
+.section-description {
+    font-size: 18px;
+    color: #2f4f4f; /* Un color gris oscuro */
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 1.6; /* Mejorar la legibilidad del párrafo */
+}
+
+
+nav {
+    background-color: #a8d5ba; /* Verde menta claro */
+    padding: 10px;
+}
+
+nav a {
+    color: #2c3e50; /* Gris oscuro */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.agrupar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+}
+
+section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 0 0 30%;
+}
+
+footer {
+    background-color: #a8d5ba; /* Verde menta claro */
+    color: #2c3e50; /* Gris oscuro */
+    text-align: center;
+    padding: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #2c3e50; /* Gris oscuro */
+    text-decoration: none;
+}
+.agrupar {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en una columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+.imagenes {
+    width: 100%; /* Asegura que el ancho del contenedor de imágenes sea el 100% */
+    display: flex;
+    justify-content: space-between; /* Distribuye las imágenes uniformemente */
+}
+
+.imagenes img {
+    width: 30%; /* Define el ancho de cada imagen */
+    margin-bottom: 10px; /* Espacio entre las imágenes */
+}
+
+aside {
+    margin-top: 50px; /* Espacio entre las imágenes y el enlace */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+#productos h2 {
+    text-align: center; /* Centra el título */
+}
+
+.producto {
+    width: 300px; /* Establece el ancho deseado para cada producto */
+    margin: 20px; /* Añade márgenes entre los productos */
+    display: inline-block; /* Permite que los productos se muestren en línea */
+    vertical-align: top; /* Alinea los productos en la parte superior */
+    text-align: center; /* Centra el contenido dentro de cada producto */
+}
+
+.producto img {
+    width: 200px; /* Establece el ancho deseado para las imágenes de los productos */
+    height: auto; /* Hace que la altura de las imágenes se ajuste automáticamente */
+}
+body.pagina-login nav a {
+    color: #2c3e50;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+body.pagina-login section {
+    text-align: center;
+}
+
+body.pagina-login .container {
+    margin: 0 auto;
+    width: 50%;
+    max-width: 500px;
+}
+
+body.pagina-login form {
+    text-align: left;
+}
+
+body.pagina-login .form-group {
+    margin-bottom: 20px;
+}
+
+body.pagina-login input[type="text"],
+body.pagina-login input[type="password"] {
+    width: 100%; /* Ancho del campo de entrada al 100% */
+    padding: 10px; /* Aumenta el espacio de relleno */
+    font-size: 16px; /* Ajusta el tamaño de la fuente */
+}
+
+body.pagina-login button {
+    background-color: #78c2ad;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+
+body.pagina-login button:hover {
+    background-color: #5a9a84;
+}
+
+body.pagina-login .enlaces {
+    margin-top: 20px; /* Agrega un margen superior */
+}
+
+body.pagina-login footer {
+    text-align: center;
+    background-color: #a8d5ba;
+    padding: 20px;
+}
+
+/* Estilos específicos para el formulario de registro */
+
+.registro-form {
+    margin-top: 20px; /* Espacio superior */
+    padding: 20px; /* Espacio interno */
+    border: 1px solid #ccc; /* Borde con color gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Fondo gris claro */
+}
+
+.registro-form div {
+    margin-bottom: 15px; /* Espacio entre elementos */
+}
+
+.registro-form label {
+    display: inline-block; /* Alinea las etiquetas en línea */
+    width: 150px; /* Ancho fijo para las etiquetas */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.registro-form input[type="text"],
+.registro-form input[type="password"],
+.registro-form select,
+.registro-form input[type="file"],
+.registro-form input[type="month"],
+.registro-form input[type="color"] {
+    width: 250px; /* Ancho de los campos de texto y select */
+    padding: 8px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde con color gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+.registro-form input[type="radio"] {
+    margin-right: 10px; /* Espacio entre los botones de radio */
+}
+/* Estilos para el formulario de ingreso de productos */
+.centrar form div {
+    margin-bottom: 20px;
+}
+
+.centrar form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.centrar form input[type="text"],
+.centrar form input[type="number"],
+.centrar form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.centrar form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.centrar form button[type="reset"] {
+    background-color: #c0c0c0;
+    margin-left: 10px;
+}
+
+/* Estilos para el footer */
+
+.registro-form button[type="submit"],
+.registro-form button[type="reset"] {
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #78c2ad; /* Color de fondo verde */
+    color: white; /* Texto en color blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de tipo puntero */
+}
+
+.registro-form button[type="reset"] {
+    background-color: #ADD8E6; /* Color de fondo rojo */
+    margin-left: 10px; /* Espacio entre los botones */
+}
+
+.registro-form button[type="submit"]:hover {
+    background-color: #78c2ad; /* Color de fondo verde oscuro */
+}
+
+.registro-form button[type="reset"]:hover {
+    background-color: #ADD8E6; /* Color de fondo rojo oscuro */
+}
+/* Estilos para el formulario de cambio de contraseña */
+.cambio-clave-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.cambio-clave-form h2 {
+    text-align: center;
+}
+
+.cambio-clave-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.cambio-clave-form input[type="email"],
+.cambio-clave-form input[type="password"] {
+    width: 100%;
+    max-width: 350px;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.cambio-clave-form input[type="submit"] {
+    background-color: #78c2ad;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 350px;
+    font-size: 16px;
+}
+
+.cambio-clave-form input[type="submit"]:hover {
+    background-color: #78c2ad;
+}
+.cambio-clave-form input[type="submit"]:hover {
+    background-color: #78c2ad;
+}
+.cambio-clave-form {
+    margin-bottom: 20px; /* Agrega un margen inferior al formulario */
+}
+
+footer {
+    margin-top: 20px; /* Agrega un margen superior al footer */
+}
+/* Estilos específicos para el formulario de cambio de contraseña */
+	
+/* Estilos para el formulario de ingreso de productos */
+/* Estilos para el formulario de ingreso de productos */
+.centrar {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+.centrar form {
+    width: 80%; /* Ancho del formulario */
+    max-width: 400px; /* Ancho máximo */
+    background-color: #f4f4f4; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.centrar form div {
+    margin-bottom: 20px;
+    display: flex; /* Hacemos que los elementos dentro del div se muestren en línea */
+    justify-content: space-between; /* Distribuye los elementos de manera uniforme */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.centrar form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.centrar form input[type="text"],
+.centrar form input[type="number"],
+.centrar form input[type="file"] {
+    width: calc(100% - 20px); /* Ancho ajustado */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.centrar form button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #78c2ad;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.centrar form button[type="reset"] {
+    background-color: #ADD8E6;
+    margin-left: 10px;
+}
+
+/* Estilos para el título del formulario */
+.centrar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #78c2ad;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+.centrar {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+.centrar form {
+    width: 80%; /* Ancho del formulario */
+    max-width: 400px; /* Ancho máximo */
+    background-color: #f4f4f4; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.centrar form div {
+    margin-bottom: 20px;
+    display: flex; /* Hacemos que los elementos dentro del div se muestren en línea */
+    justify-content: space-between; /* Distribuye los elementos de manera uniforme */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.centrar form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.centrar form input[type="text"],
+.centrar form input[type="number"],
+.centrar form input[type="file"] {
+    width: calc(100% - 20px); /* Ancho ajustado */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.centrar form button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #78c2ad;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.centrar form button[type="reset"] {
+    background-color: #ADD8E6;
+    margin-left: 10px;
+}
+
+/* Estilos para el título del formulario */
+.centrar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .product-form, .cart-section {
+        width: 100%;
+}
+.factura{
+	border: 1px solid #78c2ad;
+	text-align: center;
+}
+.boton_enviar {
+	width: 90%;
+	height: 50px;
+	border: 1px solid;
+	background: #78c2ad;
+	border-radius: 25px;
+	font-size: 18px;
+	color: white;
+	cursor: pointer;
+	outline: none;
+}
+
+.boton{
+	width: 190px;
+	background: #78c2ad;
+	border-radius: 25px;
+	font-size: 18px;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+}
+input[type="submit"] {
+        background-color: #78c2ad; /* Color de fondo */
+        border: none; /* Sin borde */
+        color: white; /* Color del texto */
+        padding: 10px 20px; /* Espaciado interno */
+        text-align: center; /* Alineación del texto */
+        text-decoration: none; /* Sin decoración de texto */
+        display: inline-block; /* Mostrar como bloque en línea */
+        font-size: 16px; /* Tamaño de fuente */
+        cursor: pointer; /* Cursor de puntero */
+        border-radius: 5px; /* Radio de borde */
+    }
+    .mi-parrafo {
+    font-family:Arial, sans-serif; /* Cambia la fuente */
+    font-size: 1.2em; /* Aumenta el tamaño de la fuente */
+    color: #333; /* Cambia el color del texto */
+    line-height: 1.6; /* Ajusta el espaciado entre líneas */
+    background-color: #d4edda; /* Añade un fondo gris claro */
+    padding: 20px; /* Añade espacio alrededor del texto */
+    border-radius: 8px; /* Redondea las esquinas del fondo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil */
+    margin: 20px 0; /* Añade un margen arriba y abajo */
+    text-align: center; /* Centra el texto */
+}
